@@ -1,0 +1,8 @@
+runs/
+plots/reproduced/
+data/train_data/fineweb_edu/
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store
