@@ -4,7 +4,7 @@ Code and data for the paper *What's in a Tree? Hierarchical n-gram Models as Con
 
 A tree-gram is an n-gram language model shaped like a tree. It reads the last n − 1 tokens, merges neighbouring tokens into summaries, merges those summaries into larger ones, and combines the result into a prediction for the next token. Two numbers set its size: the context length n and the width d of each summary. A fixed tree-gram always merges in the same pattern, its topology. A dynamic tree-gram has a router that picks among candidate merges at every level of the tree.
 
-This repository has the model and training code, 2M-token slices of TinyStories and WikiText-103 to train on, and the six main-text figures of the paper with the values and code that redraw them.
+This repository has the model and training code, 2M-token slices of TinyStories and WikiText-103 to train on, and the six main-text figures of the paper with the values and code that redraw them. The pre-trained tree-gram models and generated data are made available on 🤗 ([here](https://huggingface.co/hugs-from-a-25/tree-gram-generators) and [here](https://huggingface.co/datasets/hugs-from-a-25/tree-gram-text) respectively).
 
 ## Contents
 
